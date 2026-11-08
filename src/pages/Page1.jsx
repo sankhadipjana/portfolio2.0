@@ -9,7 +9,7 @@ const Page1 = () => {
         >
 
             {/* Navbar */}
-            <nav className="max-w-7xl mx-auto px-6 lg:px-12 py-7 flex justify-between items-center">
+            <nav className="max-w-7xl mx-auto px-3 lg:px-1 py-4 flex justify-between items-center">
 
                 <h1 className="text-3xl md:text-4xl font-bold">
                     SJ<span className="text-cyan-400">.</span>
@@ -33,7 +33,7 @@ const Page1 = () => {
             </nav>
 
             {/* Hero Section */}
-            <div className="max-w-7xl mx-auto px-6 lg:px-12 min-h-[85vh] grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+            <div className="max-w-7xl mx-auto px-6 lg:px-1 min-h-[85vh] grid grid-cols-1 md:grid-cols-2 items-center gap-10">
 
                 {/* Left Content */}
                 <div className="text-center md:text-left py-12">
@@ -47,11 +47,23 @@ const Page1 = () => {
                         Hello, I'm
                     </p>
 
-                    <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold mt-3 leading-tight">
-                        Sankhadip
-                        <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-500">
-                            Jana.
-                        </span>
+                    <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold mt-3 leading-tight text-5xl font-bold bg-gradient-to-r from-[#00aaa7]
+
+  via-[#7e42a7]
+
+  via-[#6600c5]
+
+  to-[#008ead]
+
+  bg-[length:200%_auto]
+
+  bg-clip-text
+
+  text-transparent
+
+  animate-gradient">
+                        Sankhadip Jana.
+
                     </h1>
 
                     <h2 className="text-2xl sm:text-3xl font-semibold mt-5">
